@@ -1,0 +1,8 @@
+Bona vesprada, benvingut al video de l'activitat avaluable de Accés a Dades.
+
+He elegit la API de nekos.best i he tractat de fer un disseny acorde al tema.
+
+La meua base de dades conté 2 taules, la taula 'imatges' y la taula 'gifs' i cada una enmagatzema les respectives dades.
+En aquest video vaig a ficar a prova la meua pàgina web que ataca a la api i a la base de dades al mateix temps.
+
+Espere que complisca amb els requisits demanats en l'activitat. ^^'

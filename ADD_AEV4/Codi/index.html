@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Waifus :3</title>
+    <link rel="stylesheet" href="Avaluable.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body background="pink">
+    <img class="megumin" src="megumin.png">
+    <img src="title.png" alt="Title Image">
+    <p>
+    <div id="imatgesLaterals"> <img src="rem.png" /><img src="ram.png" /></div>
+    </p>
+    <div id="interface" class="container">
+        <p>Imatges:</p>
+        <p class="categories">
+            <span class="categoria">husbando</span>
+            <span class="categoria">kitsune</span>
+            <span class="categoria">neko</span>
+            <span class="categoria">waifu</span>
+            <br>
+        </p>
+        <p>GIFS:</p>
+        <p class="categories">
+            <span class="categoria">baka</span>
+            <span class="categoria">bite</span>
+            <span class="categoria">blush</span>
+            <span class="categoria">bored</span>
+            <span class="categoria">cry</span>
+            <span class="categoria">cuddle</span>
+            <span class="categoria">dance</span>
+            <span class="categoria">facepalm</span>
+            <span class="categoria">feed</span>
+        </p>
+        <br>
+        <p style="font-weight: bold;">Buscar en la API:</p>
+        <input type="text" id="categoriaNeko">
+        <p style="font-weight: bold;">Buscar en la BD: </p>
+        <input type="text" id="buscarImageName">
+        <p><button onclick="obtindreImatgeApi()">Buscar en la API</button>
+            <button onclick="buscarPerNom()">Buscar en la BD</button>
+        </p>
+        <p>
+            <button onclick="mostrarImatgeAPI()">Mostrar resultat de la API</button>
+            <button onclick="ocultarImatgeAPI()">Ocultar resultat de la API</button>
+        </p>
+        <p>
+            <button onclick="mostrarImatgeBD()">Mostrar resultat de la BD</button>
+            <button onclick="ocultarImatgeBD()">Ocultar resultat de la BD</button>
+        </p>
+        <p><button onclick="mostrarTotesLesImatges()">Mostrar totes las imatges</button>
+            <button onclick="ocultarImatges()">Ocultar totes les imatges</button>
+        </p>
+        <p><button onclick="mostrarTotsElsGifs()">Mostrar tots els GIFs</button>
+            <button onclick="ocultarGifs()">Ocultar tots els GIFs</button>
+        </p>
+        <img id="nekosImage" src="" height="500" width="500" style="display:none;" />
+        <p style="font-weight: bold;">Nom de la imatge: <input type="text" id="image_name" name="image_name"></p>
+        <p><button onclick="guardarInfo()">Guardar</button></p>
+        <div id="resultatApiContainer"></div>
+        <div id="resultatBdContainer"></div>
+        <div id="contenidorImatges"></div>
+        <div id="contenidorGifs"></div>
+    </div>
+</body>
+
+</html>

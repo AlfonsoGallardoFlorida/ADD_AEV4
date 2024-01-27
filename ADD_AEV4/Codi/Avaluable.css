@@ -1,0 +1,115 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffd9eb;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    color: #ff69b4;
+}
+
+p {
+    color: #ff69b4;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ff69b4;
+}
+
+button {
+    padding: 8px 15px;
+    font-size: 16px;
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff4081;
+}
+
+img {
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+span {
+    font-weight: bold;
+    color: #ff69b4;
+}
+
+.categoria {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ff69b4;
+    border-radius: 5px;
+    background-color: #ffe6f0;
+    color: #ff69b4;
+}
+
+.categories {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.megumin {
+    width: 300px;
+}
+
+.container {
+    z-index: 2;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffe6f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#nekosImage {
+    border: 2px solid #ff69b4;
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.3);
+}
+
+#imatgesLaterals {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+#imatgesLaterals img {
+    max-height: 100vh;
+    max-width: 28%;
+    margin: 0;
+    padding: 0;
+}
+
+#interface input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

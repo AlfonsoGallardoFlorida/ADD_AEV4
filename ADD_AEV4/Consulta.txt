@@ -1,0 +1,19 @@
+CONSULTA DE CREACIÓ DE LA BASE DE DADES
+---------------------------------------
+
+CREATE DATABASE IF NOT EXISTS nekos; USE nekos;
+
+CREATE TABLE IF NOT EXISTS imagenes (
+ id INT AUTO_INCREMENT PRIMARY KEY,
+ artist_href VARCHAR(255),
+ artist_name VARCHAR(255),
+ source_url VARCHAR(255),
+ image_name VARCHAR(255),
+ image_url VARCHAR(255)
+);
+
+CREATE TABLE IF NOT EXISTS gifs (
+ id INT AUTO_INCREMENT PRIMARY KEY,
+ image_name VARCHAR(255),
+ image_url VARCHAR(255)
+);
